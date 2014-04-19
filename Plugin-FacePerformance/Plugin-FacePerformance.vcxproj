@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{82A968BF-59B2-4C18-B2CE-0CBCC0604394}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Plugin-FacePerformance</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Plugin-FacePerformance.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Plugin-FacePerformance</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin-FacePerformance.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin-FacePerformance</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(KINECTSDK10_DIR)\inc;$(SolutionDir)\Library\opencv\include;$(SolutionDir)\Library\Eigen\include;$(SolutionDir)\Library\trimesh\include;$(SolutionDir)\Library\mkl\include;$(SolutionDir)\Library\pcl\include;$(SolutionDir)\Library\flann\include;$(SolutionDir)\Library\Boost\include;$(SolutionDir)\Library\ceres-solver\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\Library\opencv\lib;$(KINECTSDK10_DIR)\lib\x86;$(SolutionDir)\Library\trimesh\lib;$(SolutionDir)\Library\pcl\lib;$(SolutionDir)\Library\mkl\lib;$(SolutionDir)\Library\flann\lib;$(SolutionDir)\Library\Boost\lib;$(SolutionDir)\Library\ceres-solver\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;NOMINMAX;OPENFLIPPER_APPDIR=".";OPENFLIPPER_PLUGINDIR="Plugins";OPENFLIPPER_DATADIR=".";INCLUDE_TEMPLATES;QT_DLL;QT_OPENGL_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_HELP_LIB;QT_WEBKIT_LIB;QT_SCRIPTTOOLS_LIB;QT_XMLPATTERNS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;USE_OPENMP;ACGDLL;USEACG;PLUGINLIBDLL;USEPLUGINLIBDLL;QT_DEBUG;CMAKE_INTDIR="Debug";Plugin_FacePerformance_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;NOMINMAX;OPENFLIPPER_APPDIR=\".\";OPENFLIPPER_PLUGINDIR=\"Plugins\";OPENFLIPPER_DATADIR=\".\";INCLUDE_TEMPLATES;QT_DLL;QT_OPENGL_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_HELP_LIB;QT_WEBKIT_LIB;QT_SCRIPTTOOLS_LIB;QT_XMLPATTERNS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;USE_OPENMP;ACGDLL;USEACG;PLUGINLIBDLL;USEPLUGINLIBDLL;QT_DEBUG;CMAKE_INTDIR=\"Debug\";Plugin_FacePerformance_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy_if_different E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/$(Configuration)/Plugin-FacePerformance.dll E:/Development/OpenFlipper-1.3/build/Build/Plugins/Plugin-FacePerformance.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libs_required\OpenMesh\src\OpenMesh\Core\Debug\OpenMeshCored.lib;..\libs_required\OpenMesh\src\OpenMesh\Tools\Debug\OpenMeshToolsd.lib;..\libs_required\OpenVolumeMesh\src\Debug\OpenVolumeMesh.lib;..\ACG\Debug\ACG.lib;..\OpenFlipper\PluginLib\Debug\OpenFlipperPluginLib.lib;E:\Development\glut-3.7\lib\glut32.lib;..\libs_required\OpenVolumeMesh\src\Debug\OpenVolumeMesh.lib;..\ACG\Debug\ACG.lib;..\libs_required\OpenMesh\src\OpenMesh\Tools\Debug\OpenMeshToolsd.lib;..\libs_required\OpenMesh\src\OpenMesh\Core\Debug\OpenMeshCored.lib;E:\Development\Qt\lib\QtOpenGLd4.lib;E:\Development\Qt\lib\QtScriptd4.lib;E:\Development\Qt\lib\QtUiToolsd.lib;E:\Development\Qt\lib\QtHelpd4.lib;E:\Development\Qt\lib\QtWebKitd4.lib;E:\Development\Qt\lib\QtScriptToolsd4.lib;E:\Development\Qt\lib\QtXmlPatternsd4.lib;E:\Development\Qt\lib\QtGuid4.lib;E:\Development\Qt\lib\QtXmld4.lib;E:\Development\Qt\lib\QtSqld4.lib;E:\Development\Qt\lib\QtNetworkd4.lib;E:\Development\Qt\lib\QtCored4.lib;glu32.lib;opengl32.lib;E:\Development\glew-1.9.0-win32\glew-1.9.0\lib\glew32.lib;E:\Development\glut-3.7\lib\glut32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Debug/Plugin-FacePerformance.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Debug/Plugin-FacePerformance.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;OPENFLIPPER_APPDIR=".";OPENFLIPPER_PLUGINDIR="Plugins";OPENFLIPPER_DATADIR=".";INCLUDE_TEMPLATES;QT_DLL;QT_OPENGL_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_HELP_LIB;QT_WEBKIT_LIB;QT_SCRIPTTOOLS_LIB;QT_XMLPATTERNS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;USE_OPENMP;ACGDLL;USEACG;PLUGINLIBDLL;USEPLUGINLIBDLL;QT_NO_DEBUG;CMAKE_INTDIR="Release";Plugin_FacePerformance_EXPORTS;GLOG_NO_ABBREVIATED_SEVERITIES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;OPENFLIPPER_APPDIR=\".\";OPENFLIPPER_PLUGINDIR=\"Plugins\";OPENFLIPPER_DATADIR=\".\";INCLUDE_TEMPLATES;QT_DLL;QT_OPENGL_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_HELP_LIB;QT_WEBKIT_LIB;QT_SCRIPTTOOLS_LIB;QT_XMLPATTERNS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;USE_OPENMP;ACGDLL;USEACG;PLUGINLIBDLL;USEPLUGINLIBDLL;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";Plugin_FacePerformance_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\Qt\include;E:\Development\Qt\include\QtOpenGL;E:\Development\Qt\include\QtScript;E:\Development\Qt\include\QtUiTools;E:\Development\Qt\include\QtHelp;E:\Development\Qt\include\QtWebKit;E:\Development\Qt\include\QtScriptTools;E:\Development\Qt\include\QtXmlPatterns;E:\Development\Qt\include\QtGui;E:\Development\Qt\include\QtXml;E:\Development\Qt\include\QtSql;E:\Development\Qt\include\QtNetwork;E:\Development\Qt\include\QtCore;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\.;E:\Development\OpenFlipper-1.3;E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src;E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance;E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance;E:\Development\glew-1.9.0-win32\glew-1.9.0\include;E:\Development\glut-3.7\include;E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy_if_different E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/$(Configuration)/Plugin-FacePerformance.dll E:/Development/OpenFlipper-1.3/build/Build/Plugins/Plugin-FacePerformance.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libs_required\OpenMesh\src\OpenMesh\Core\Release\OpenMeshCore.lib;..\libs_required\OpenMesh\src\OpenMesh\Tools\Release\OpenMeshTools.lib;..\libs_required\OpenVolumeMesh\src\Release\OpenVolumeMesh.lib;..\ACG\Release\ACG.lib;..\OpenFlipper\PluginLib\Release\OpenFlipperPluginLib.lib;E:\Development\glut-3.7\lib\glut32.lib;E:\Development\Qt\lib\QtOpenGL4.lib;E:\Development\Qt\lib\QtScript4.lib;E:\Development\Qt\lib\QtUiTools.lib;E:\Development\Qt\lib\QtHelp4.lib;E:\Development\Qt\lib\QtWebKit4.lib;E:\Development\Qt\lib\QtScriptTools4.lib;E:\Development\Qt\lib\QtXmlPatterns4.lib;E:\Development\Qt\lib\QtGui4.lib;E:\Development\Qt\lib\QtXml4.lib;E:\Development\Qt\lib\QtSql4.lib;E:\Development\Qt\lib\QtNetwork4.lib;E:\Development\Qt\lib\QtCore4.lib;glu32.lib;opengl32.lib;E:\Development\glew-1.9.0-win32\glew-1.9.0\lib\glew32.lib;opencv_features2d246.lib;opencv_objdetect246.lib;opencv_core246.lib;opencv_highgui246.lib;opencv_imgproc246.lib;Kinect10.lib;asmlibraryD.lib;trimesh.lib;mkl_c.lib;mkl_solver.lib;libguide40.lib;pcl_io_ply_release.lib;pcl_io_release.lib;pcl_kdtree_release.lib;pcl_filters_release.lib;pcl_common_release.lib;flann.lib;ceres_release.lib;libgflags.lib;libglog.lib;gflags_unittest.lib;FaceTrackingDll.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Plugin-FacePerformance\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HE:/Development/OpenFlipper-1.3 -BE:/Development/OpenFlipper-1.3/build --check-stamp-file E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\CMakeLists.txt;E:\Development\OpenFlipper-1.3\OpenFlipper\cmake\plugin.cmake;E:\Development\OpenFlipper-1.3\cmake\ACGCommon.cmake;E:\Development\OpenFlipper-1.3\OpenFlipper.cmake;E:\Development\OpenFlipper-1.3\OpenFlipper\cmake\common.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\AddFileDependencies.cmake;E:\Development\OpenFlipper-1.3\cmake\ACGCompiler.cmake;E:\Development\OpenFlipper-1.3\cmake\FindGLUT.cmake;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HE:/Development/OpenFlipper-1.3 -BE:/Development/OpenFlipper-1.3/build --check-stamp-file E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\CMakeLists.txt;E:\Development\OpenFlipper-1.3\OpenFlipper\cmake\plugin.cmake;E:\Development\OpenFlipper-1.3\cmake\ACGCommon.cmake;E:\Development\OpenFlipper-1.3\OpenFlipper.cmake;E:\Development\OpenFlipper-1.3\OpenFlipper\cmake\common.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\AddFileDependencies.cmake;E:\Development\OpenFlipper-1.3\cmake\ACGCompiler.cmake;E:\Development\OpenFlipper-1.3\cmake\FindGLUT.cmake;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeFiles\7f713a58d93ed120a01add1c19f06334\moc_FacePerformancePlugin.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_FacePerformancePlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Development\Qt\bin\moc.exe -IE:/Development/Qt/include -IE:/Development/Qt/include/QtOpenGL -IE:/Development/Qt/include/QtScript -IE:/Development/Qt/include/QtUiTools -IE:/Development/Qt/include/QtHelp -IE:/Development/Qt/include/QtWebKit -IE:/Development/Qt/include/QtScriptTools -IE:/Development/Qt/include/QtXmlPatterns -IE:/Development/Qt/include/QtGui -IE:/Development/Qt/include/QtXml -IE:/Development/Qt/include/QtSql -IE:/Development/Qt/include/QtNetwork -IE:/Development/Qt/include/QtCore -IE:/Development/OpenFlipper-1.3/Plugin-FacePerformance/. -IE:/Development/OpenFlipper-1.3 -IE:/Development/OpenFlipper-1.3/libs_required/OpenMesh/src -IE:/Development/OpenFlipper-1.3/libs_required/OpenVolumeMesh/src -IE:/Development/OpenFlipper-1.3/Plugin-FacePerformance -IE:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance -IE:/Development/glew-1.9.0-win32/glew-1.9.0/include -IE:/Development/glut-3.7/include -IE:/Development/OpenFlipper-1.3/build/OpenFlipper/PluginLib -D_USE_MATH_DEFINES -DNOMINMAX -DOPENFLIPPER_APPDIR="." -DOPENFLIPPER_PLUGINDIR="Plugins" -DOPENFLIPPER_DATADIR="." -DINCLUDE_TEMPLATES -DQT_DLL -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_UITOOLS_LIB -DQT_HELP_LIB -DQT_WEBKIT_LIB -DQT_SCRIPTTOOLS_LIB -DQT_XMLPATTERNS_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_OPENMP -D_USE_MATH_DEFINES -DNOMINMAX -DOPENFLIPPER_APPDIR="." -DOPENFLIPPER_PLUGINDIR="Plugins" -DOPENFLIPPER_DATADIR="." -DINCLUDE_TEMPLATES -DWIN32 E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/FacePerformancePlugin.hh -o E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/moc_FacePerformancePlugin.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/OpenFlipper-1.3/build/CMakeFiles/7f713a58d93ed120a01add1c19f06334/moc_FacePerformancePlugin.cpp.rule;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\FacePerformancePlugin.hh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\moc_FacePerformancePlugin.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_FacePerformancePlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Development\Qt\bin\moc.exe -IE:/Development/Qt/include -IE:/Development/Qt/include/QtOpenGL -IE:/Development/Qt/include/QtScript -IE:/Development/Qt/include/QtUiTools -IE:/Development/Qt/include/QtHelp -IE:/Development/Qt/include/QtWebKit -IE:/Development/Qt/include/QtScriptTools -IE:/Development/Qt/include/QtXmlPatterns -IE:/Development/Qt/include/QtGui -IE:/Development/Qt/include/QtXml -IE:/Development/Qt/include/QtSql -IE:/Development/Qt/include/QtNetwork -IE:/Development/Qt/include/QtCore -IE:/Development/OpenFlipper-1.3/Plugin-FacePerformance/. -IE:/Development/OpenFlipper-1.3 -IE:/Development/OpenFlipper-1.3/libs_required/OpenMesh/src -IE:/Development/OpenFlipper-1.3/libs_required/OpenVolumeMesh/src -IE:/Development/OpenFlipper-1.3/Plugin-FacePerformance -IE:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance -IE:/Development/glew-1.9.0-win32/glew-1.9.0/include -IE:/Development/glut-3.7/include -IE:/Development/OpenFlipper-1.3/build/OpenFlipper/PluginLib -D_USE_MATH_DEFINES -DNOMINMAX -DOPENFLIPPER_APPDIR="." -DOPENFLIPPER_PLUGINDIR="Plugins" -DOPENFLIPPER_DATADIR="." -DINCLUDE_TEMPLATES -DQT_DLL -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_UITOOLS_LIB -DQT_HELP_LIB -DQT_WEBKIT_LIB -DQT_SCRIPTTOOLS_LIB -DQT_XMLPATTERNS_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_OPENMP -D_USE_MATH_DEFINES -DNOMINMAX -DOPENFLIPPER_APPDIR="." -DOPENFLIPPER_PLUGINDIR="Plugins" -DOPENFLIPPER_DATADIR="." -DINCLUDE_TEMPLATES -DWIN32 E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/FacePerformancePlugin.hh -o E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/moc_FacePerformancePlugin.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/OpenFlipper-1.3/build/CMakeFiles/7f713a58d93ed120a01add1c19f06334/moc_FacePerformancePlugin.cpp.rule;E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\FacePerformancePlugin.hh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\moc_FacePerformancePlugin.cpp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Blendshape.cpp" />
+    <ClCompile Include="FeatureExtraction.cpp" />
+    <ClCompile Include="GraphLaplacian_PCA.cpp" />
+    <ClCompile Include="InitLM.cpp" />
+    <ClCompile Include="InitRegister.cpp" />
+    <ClCompile Include="InitRegisterMesh.cpp" />
+    <ClCompile Include="Neutral_PCA.cpp" />
+    <ClCompile Include="NonRigidMesh.cpp" />
+    <ClCompile Include="RefineMent.cpp" />
+    <ClCompile Include="RegisterMesh.cpp" />
+    <ClCompile Include="RigidMesh.cpp" />
+    <ClCompile Include="TrackingMesh.cpp" />
+    <ClInclude Include="..\..\Plugin-FacePerformance\FacePerformancePlugin.hh" />
+    <ClCompile Include="..\..\Plugin-FacePerformance\FacePerformancePlugin.cc" />
+    <ClCompile Include="moc_FacePerformancePlugin.cpp" />
+    <ClInclude Include="aam_interface_struct.h" />
+    <ClInclude Include="asmfitting.h" />
+    <ClInclude Include="asmlibrary.h" />
+    <ClInclude Include="Blendshape.h" />
+    <ClInclude Include="FaceTrackingDll.h" />
+    <ClInclude Include="FeatureExtraction.h" />
+    <ClInclude Include="GraphLaplacian_PCA.h" />
+    <ClInclude Include="InitLM.h" />
+    <ClInclude Include="InitRegister.h" />
+    <ClInclude Include="InitRegisterMesh.h" />
+    <ClInclude Include="Neutral_PCA.h" />
+    <ClInclude Include="NonRigidLM.h" />
+    <ClInclude Include="NonRigidMesh.h" />
+    <ClInclude Include="RefineMent.h" />
+    <ClInclude Include="RegisterMesh.h" />
+    <ClInclude Include="RigidLM.h" />
+    <ClInclude Include="RigidMesh.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TrackingMesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/ACG/ACG.vcxproj">
+      <Project>906B011F-A267-4436-B1B6-B1E4DCB7BF0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/OpenFlipper/PluginLib/OpenFlipperPluginLib.vcxproj">
+      <Project>35439A01-1797-473E-9C64-A03E36ACCE45</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/libs_required/OpenMesh/src/OpenMesh/Core/OpenMeshCore.vcxproj">
+      <Project>B9EB4EE9-CBC6-4E07-AB93-6EC50BE193FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/libs_required/OpenMesh/src/OpenMesh/Tools/OpenMeshTools.vcxproj">
+      <Project>F1282C6D-E7D8-4600-B1EC-92C3805B28B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/libs_required/OpenVolumeMesh/src/OpenVolumeMesh.vcxproj">
+      <Project>F0011E63-33B0-4BF1-8C07-19BDDCE5FA2D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Development/OpenFlipper-1.3/build/ZERO_CHECK.vcxproj">
+      <Project>F41FB2C2-C4DD-4590-ADCC-21BE05378BDF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

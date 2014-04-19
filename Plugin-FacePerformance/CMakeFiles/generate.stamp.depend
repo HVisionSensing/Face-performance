@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt
+E:/Development/OpenFlipper-1.3/OpenFlipper/cmake/plugin.cmake
+E:/Development/OpenFlipper-1.3/cmake/ACGCommon.cmake
+E:/Development/OpenFlipper-1.3/OpenFlipper.cmake
+E:/Development/OpenFlipper-1.3/OpenFlipper/cmake/common.cmake
+D:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/AddFileDependencies.cmake
+E:/Development/OpenFlipper-1.3/cmake/ACGCompiler.cmake
+E:/Development/OpenFlipper-1.3/cmake/FindGLUT.cmake

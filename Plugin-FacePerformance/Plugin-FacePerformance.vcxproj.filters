@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Plugin-FacePerformance\FacePerformancePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_FacePerformancePlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutral_PCA.cpp" />
+    <ClCompile Include="GraphLaplacian_PCA.cpp" />
+    <ClCompile Include="Blendshape.cpp" />
+    <ClCompile Include="FeatureExtraction.cpp" />
+    <ClCompile Include="RegisterMesh.cpp" />
+    <ClCompile Include="InitRegisterMesh.cpp" />
+    <ClCompile Include="InitRegister.cpp" />
+    <ClCompile Include="InitLM.cpp" />
+    <ClCompile Include="TrackingMesh.cpp" />
+    <ClCompile Include="RigidMesh.cpp" />
+    <ClCompile Include="NonRigidMesh.cpp" />
+    <ClCompile Include="RefineMent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Plugin-FacePerformance\FacePerformancePlugin.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutral_PCA.h" />
+    <ClInclude Include="GraphLaplacian_PCA.h" />
+    <ClInclude Include="Blendshape.h" />
+    <ClInclude Include="asmfitting.h" />
+    <ClInclude Include="asmlibrary.h" />
+    <ClInclude Include="FeatureExtraction.h" />
+    <ClInclude Include="RegisterMesh.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="InitRegisterMesh.h" />
+    <ClInclude Include="InitRegister.h" />
+    <ClInclude Include="InitLM.h" />
+    <ClInclude Include="TrackingMesh.h" />
+    <ClInclude Include="RigidMesh.h" />
+    <ClInclude Include="RigidLM.h" />
+    <ClInclude Include="NonRigidLM.h" />
+    <ClInclude Include="NonRigidMesh.h" />
+    <ClInclude Include="aam_interface_struct.h" />
+    <ClInclude Include="FaceTrackingDll.h" />
+    <ClInclude Include="RefineMent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Plugin-FacePerformance\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeFiles\7f713a58d93ed120a01add1c19f06334\moc_FacePerformancePlugin.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B5F54AB4-F370-4D9E-A997-C559847C5B50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6F044D8B-15EE-4642-9F8F-963BBCC08709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{63C670B2-EC07-40AF-9EB5-17B4ECA2F59E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

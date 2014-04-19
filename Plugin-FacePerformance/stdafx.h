@@ -1,0 +1,17 @@
+//#include <QtWidgets>
+//#include <GLUT.H>
+#include <stdio.h>
+#include <tchar.h>
+#include <pcl/kdtree/kdtree_flann.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/point_types.h>
+#include <pcl/filters/voxel_grid.h>
+#include <pcl/filters/filter.h>
+#include <pcl/features/normal_3d.h>
+#include <pcl/io/ply_io.h>
+#include <pcl/io/ply/io_operators.h>
+#include <pcl/io/ply/ply.h>
+#include <pcl/io/obj_io.h>
+#include <pcl/io/ply/ply_parser.h>
+//#include "lbfgs/HLBFGS.h"
+//#include "lbfgs/Lite_Sparse_Matrix.h"

@@ -1,0 +1,479 @@
+﻿生成启动时间为 2014/4/18 21:00:16。
+     1>项目“E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Plugin-FacePerformance.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Development/OpenFlipper-1.3/Plugin-FacePerformance/CMakeLists.txt
+         CMake does not need to re-run because E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\CMakeFiles\generate.stamp is up-to-date.
+         Generating moc_FacePerformancePlugin.cpp
+         Qt: Untested Windows version 6.2 detected!
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Development\Qt\include /IE:\Development\Qt\include\QtOpenGL /IE:\Development\Qt\include\QtScript /IE:\Development\Qt\include\QtUiTools /IE:\Development\Qt\include\QtHelp /IE:\Development\Qt\include\QtWebKit /IE:\Development\Qt\include\QtScriptTools /IE:\Development\Qt\include\QtXmlPatterns /IE:\Development\Qt\include\QtGui /IE:\Development\Qt\include\QtXml /IE:\Development\Qt\include\QtSql /IE:\Development\Qt\include\QtNetwork /IE:\Development\Qt\include\QtCore /I"E:\Development\OpenFlipper-1.3\Plugin-FacePerformance\." /I"E:\Development\OpenFlipper-1.3" /I"E:\Development\OpenFlipper-1.3\libs_required\OpenMesh\src" /I"E:\Development\OpenFlipper-1.3\libs_required\OpenVolumeMesh\src" /I"E:\Development\OpenFlipper-1.3\Plugin-FacePerformance" /I"E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance" /I"E:\Development\glew-1.9.0-win32\glew-1.9.0\include" /I"E:\Development\glut-3.7\include" /I"E:\Development\OpenFlipper-1.3\build\OpenFlipper\PluginLib" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D "OPENFLIPPER_APPDIR=\".\"" /D "OPENFLIPPER_PLUGINDIR=\"Plugins\"" /D "OPENFLIPPER_DATADIR=\".\"" /D INCLUDE_TEMPLATES /D QT_DLL /D QT_OPENGL_LIB /D QT_SCRIPT_LIB /D QT_UITOOLS_LIB /D QT_HELP_LIB /D QT_WEBKIT_LIB /D QT_SCRIPTTOOLS_LIB /D QT_XMLPATTERNS_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D USE_OPENMP /D ACGDLL /D USEACG /D PLUGINLIBDLL /D USEPLUGINLIBDLL /D QT_NO_DEBUG /D "CMAKE_INTDIR=\"Release\"" /D Plugin_FacePerformance_EXPORTS /D GLOG_NO_ABBREVIATED_SEVERITIES /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"Plugin-FacePerformance.dir\Release\\" /Fd"Plugin-FacePerformance.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Blendshape.cpp FeatureExtraction.cpp GraphLaplacian_PCA.cpp InitLM.cpp InitRegister.cpp InitRegisterMesh.cpp Neutral_PCA.cpp NonRigidMesh.cpp RefineMent.cpp RegisterMesh.cpp RigidMesh.cpp TrackingMesh.cpp "..\..\Plugin-FacePerformance\FacePerformancePlugin.cc" moc_FacePerformancePlugin.cpp
+         Blendshape.cpp
+         FeatureExtraction.cpp
+         GraphLaplacian_PCA.cpp
+         InitLM.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\glog/logging.h(1158): warning C4251: “google::LogMessage::LogStream::streambuf_”: class“google::base_logging::LogStreamBuf”需要有 dll 接口由 class“google::LogMessage::LogStream”的客户端使用
+                 E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\glog/logging.h(1088) : 参见“google::base_logging::LogStreamBuf”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\glog/logging.h(1144): warning C4355: “this”: 用于基成员初始值设定项列表
+     1>FeatureExtraction.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+         InitRegister.cpp
+         InitRegisterMesh.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/fpclassify.h(49): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/fpclassify.h(51): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/pcl_macros.h(67): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+                 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\InitLM.h(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Neutral_PCA.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1008): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1009): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1012): warning C4996: 'pcl::SHOT::rf': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1005) : 参见“pcl::SHOT::rf”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1013): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(445): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(449): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446) : 参见“pcl::DefaultPointRepresentation<pcl::SHOT>”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(455): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(458): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         NonRigidMesh.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/pcl_macros.h(67): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+                 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         RefineMent.cpp
+         RegisterMesh.cpp
+         RigidMesh.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/pcl_macros.h(67): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+                 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1008): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1009): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1012): warning C4996: 'pcl::SHOT::rf': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1005) : 参见“pcl::SHOT::rf”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1013): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(445): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(449): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446) : 参见“pcl::DefaultPointRepresentation<pcl::SHOT>”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(455): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(458): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+         TrackingMesh.cpp
+         FacePerformancePlugin.cc
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1008): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1009): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1012): warning C4996: 'pcl::SHOT::rf': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1005) : 参见“pcl::SHOT::rf”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1013): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(445): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(449): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(446) : 参见“pcl::DefaultPointRepresentation<pcl::SHOT>”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(455): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1003) : 参见“pcl::SHOT”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(458): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/impl/point_types.hpp(1004) : 参见“pcl::SHOT::descriptor”的声明
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_representation.h(460) : 编译器已在此处生成“pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation”
+                 此诊断出现在编译器生成的函数“void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)”中
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\InitLM.h(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>InitRegisterMesh.cpp(129): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(392): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(420): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(432): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(444): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(410): warning C4101: “d”: 未引用的局部变量
+     1>InitRegisterMesh.cpp(483): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitRegisterMesh.cpp(511): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(114): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::load_saved_index<Distance>(const flann::Matrix<T> &,const std::string &,Distance)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(107): 编译类 模板 成员函数“flann::Index<Distance>::Index(const flann::Matrix<T> &,const flann::IndexParams &,Distance)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/kdtree/kdtree_flann.h(377): 参见对正在编译的类 模板 实例化“flann::Index<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/pcl_macros.h(67): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+                 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/dist.h(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(688): 参见对正在编译的函数 模板 实例化“float flann::L2_Simple<T>::operator ()<T*,double*>(Iterator1,Iterator2,size_t,float) const”的引用
+                 with
+                 [
+                     T=float,
+                     Iterator1=float *,
+                     Iterator2=double *
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(644): 编译类 模板 成员函数“void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::KMeansNode *,int *,int,int,int)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(96): 参见对正在编译的类 模板 实例化“flann::KMeansIndex<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(102): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>::needs_kdtree_distance<T>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType,
+                     T=flann::KMeansIndex<flann::L2_Simple<float>>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(152): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(118): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::Matrix<T> &,const flann::IndexParams &,const Distance &)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(251): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(285): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(146): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(175): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(187): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(165): warning C4101: “d”: 未引用的局部变量
+     1>NonRigidMesh.cpp(244): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\RigidLM.h(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>RigidMesh.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+     1>RigidMesh.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>RigidMesh.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+     1>RigidMesh.cpp(116): warning C4101: “d”: 未引用的局部变量
+     1>RigidMesh.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(299): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(474): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(545): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(586): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(114): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::load_saved_index<Distance>(const flann::Matrix<T> &,const std::string &,Distance)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(107): 编译类 模板 成员函数“flann::Index<Distance>::Index(const flann::Matrix<T> &,const flann::IndexParams &,Distance)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/kdtree/kdtree_flann.h(377): 参见对正在编译的类 模板 实例化“flann::Index<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+     1>NonRigidMesh.cpp(610): warning C4018: “<”: 有符号/无符号不匹配
+     1>NonRigidMesh.cpp(632): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/dist.h(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(688): 参见对正在编译的函数 模板 实例化“float flann::L2_Simple<T>::operator ()<T*,double*>(Iterator1,Iterator2,size_t,float) const”的引用
+                 with
+                 [
+                     T=float,
+                     Iterator1=float *,
+                     Iterator2=double *
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(644): 编译类 模板 成员函数“void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::KMeansNode *,int *,int,int,int)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(96): 参见对正在编译的类 模板 实例化“flann::KMeansIndex<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(102): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>::needs_kdtree_distance<T>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType,
+                     T=flann::KMeansIndex<flann::L2_Simple<float>>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(152): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(118): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::Matrix<T> &,const flann::IndexParams &,const Distance &)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(114): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::load_saved_index<Distance>(const flann::Matrix<T> &,const std::string &,Distance)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(107): 编译类 模板 成员函数“flann::Index<Distance>::Index(const flann::Matrix<T> &,const flann::IndexParams &,Distance)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/kdtree/kdtree_flann.h(377): 参见对正在编译的类 模板 实例化“flann::Index<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\InitLM.h(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\RigidLM.h(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(251): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(285): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\Plugin-FacePerformance\FacePerformancePlugin.cc(705): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\Plugin-FacePerformance\FacePerformancePlugin.cc(776): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\Plugin-FacePerformance\FacePerformancePlugin.cc(829): warning C4018: “<”: 有符号/无符号不匹配
+         moc_FacePerformancePlugin.cpp
+     1>E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/dist.h(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(688): 参见对正在编译的函数 模板 实例化“float flann::L2_Simple<T>::operator ()<T*,double*>(Iterator1,Iterator2,size_t,float) const”的引用
+                 with
+                 [
+                     T=float,
+                     Iterator1=float *,
+                     Iterator2=double *
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/kmeans_index.h(644): 编译类 模板 成员函数“void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::KMeansNode *,int *,int,int,int)”时
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(96): 参见对正在编译的类 模板 实例化“flann::KMeansIndex<Distance>”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(102): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>::needs_kdtree_distance<T>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType,
+                     T=flann::KMeansIndex<flann::L2_Simple<float>>
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/algorithms/all_indices.h(152): 参见对正在编译的类 模板 实例化“flann::valid_combination<Index,Distance,ElementType>”的引用
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType
+                 ]
+                 E:\Development\OpenFlipper-1.3\build\\Library\flann\include\flann/flann.hpp(118): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::Matrix<T> &,const flann::IndexParams &,const Distance &)”的引用
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/pcl_macros.h(67): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+                 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\pcl\include\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/solver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Development\OpenFlipper-1.3\build\\Library\ceres-solver\include\ceres/types.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\InitLM.h(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\RigidLM.h(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(251): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\development\openflipper-1.3\build\plugin-faceperformance\NonRigidLM.h(285): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Release\Plugin-FacePerformance.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\libs_required\OpenMesh\src\OpenMesh\Core\Release\OpenMeshCore.lib ..\libs_required\OpenMesh\src\OpenMesh\Tools\Release\OpenMeshTools.lib ..\libs_required\OpenVolumeMesh\src\Release\OpenVolumeMesh.lib ..\ACG\Release\ACG.lib ..\OpenFlipper\PluginLib\Release\OpenFlipperPluginLib.lib "E:\Development\glut-3.7\lib\glut32.lib" E:\Development\Qt\lib\QtOpenGL4.lib E:\Development\Qt\lib\QtScript4.lib E:\Development\Qt\lib\QtUiTools.lib E:\Development\Qt\lib\QtHelp4.lib E:\Development\Qt\lib\QtWebKit4.lib E:\Development\Qt\lib\QtScriptTools4.lib E:\Development\Qt\lib\QtXmlPatterns4.lib E:\Development\Qt\lib\QtGui4.lib E:\Development\Qt\lib\QtXml4.lib E:\Development\Qt\lib\QtSql4.lib E:\Development\Qt\lib\QtNetwork4.lib E:\Development\Qt\lib\QtCore4.lib glu32.lib opengl32.lib "E:\Development\glew-1.9.0-win32\glew-1.9.0\lib\glew32.lib" opencv_features2d246.lib opencv_objdetect246.lib opencv_core246.lib opencv_highgui246.lib opencv_imgproc246.lib Kinect10.lib asmlibraryD.lib trimesh.lib mkl_c.lib mkl_solver.lib libguide40.lib pcl_io_ply_release.lib pcl_io_release.lib pcl_kdtree_release.lib pcl_filters_release.lib pcl_common_release.lib flann.lib ceres_release.lib libgflags.lib libglog.lib gflags_unittest.lib FaceTrackingDll.lib /MANIFEST /ManifestFile:"Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.lib" /MACHINE:X86 /DLL "Plugin-FacePerformance.dir\Release\Blendshape.obj"
+         "Plugin-FacePerformance.dir\Release\FeatureExtraction.obj"
+         "Plugin-FacePerformance.dir\Release\GraphLaplacian_PCA.obj"
+         "Plugin-FacePerformance.dir\Release\InitLM.obj"
+         "Plugin-FacePerformance.dir\Release\InitRegister.obj"
+         "Plugin-FacePerformance.dir\Release\InitRegisterMesh.obj"
+         "Plugin-FacePerformance.dir\Release\Neutral_PCA.obj"
+         "Plugin-FacePerformance.dir\Release\NonRigidMesh.obj"
+         "Plugin-FacePerformance.dir\Release\RefineMent.obj"
+         "Plugin-FacePerformance.dir\Release\RegisterMesh.obj"
+         "Plugin-FacePerformance.dir\Release\RigidMesh.obj"
+         "Plugin-FacePerformance.dir\Release\TrackingMesh.obj"
+         "Plugin-FacePerformance.dir\Release\FacePerformancePlugin.obj"
+         "Plugin-FacePerformance.dir\Release\moc_FacePerformancePlugin.obj"  /machine:X86 
+            正在创建库 E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.lib 和对象 E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.exp
+         Plugin-FacePerformance.vcxproj -> E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Release\Plugin-FacePerformance.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Release\Plugin-FacePerformance.dll;#2" /manifest "Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.dll.intermediate.manifest"
+       PostBuildEvent:
+         setlocal
+         "D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy_if_different E:/Development/OpenFlipper-1.3/build/Plugin-FacePerformance/Release/Plugin-FacePerformance.dll E:/Development/OpenFlipper-1.3/build/Build/Plugins/Plugin-FacePerformance.dll
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       FinalizeBuildStatus:
+         正在删除文件“Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.unsuccessfulbuild”。
+         正在对“Plugin-FacePerformance.dir\Release\Plugin-FacePerformance.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Development\OpenFlipper-1.3\build\Plugin-FacePerformance\Plugin-FacePerformance.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:49.29
